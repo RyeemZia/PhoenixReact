@@ -37,7 +37,7 @@ function NavBar() {
     return (
             <Toolbar position="sticky" color="rgba(0, 0, 0, 0.87)" className={classes.bar}>   
                 <img src={logo} className={classes.logo}/> 
-                <img src={logoMobile} className={classes.logoMobile}/> 
+                <img src={logo} className={classes.logoMobile}/> 
                 <Typography style={{color:'white'}} variant="h3" className={classes.menuItem}>
                    Phoenix Outreach
                 </Typography>
